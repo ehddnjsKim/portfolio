@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link rel="stylesheet" href="./css/port.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>김동원의 포트폴리오</title>
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ko_KR" />
+    <meta property="og:site_name" content="dw's Website" />
+    <meta property="og:title" content="dw's Website" />
+    <meta property="og:url" content="https://ehddnjsKim.github.io/" />
+    <meta property="og:description" content="최고의 개발자가 되고싶은" />
+    <meta
+      property="og:image"
+      content="https://ehddnjsKim.github.io/images/dog.png"
+    />
+    <link rel="shortcut icon" href="./images/dog.ico" type="image/x-icon" />
+    <script
+      src="https://kit.fontawesome.com/133260cff9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <script src="./js/port.js"></script>
+
+  <body>
+    <header id="home">
+      <h1>김동원의 포트폴리오</h1>
+      <img src="./images/dog.png" alt="로고" />
+      <p>최고의 개발자를 꿈꾸는 <strong>김동원</strong>입니다!</p>
+      <nav>
+        <ul>
+          <li><a href="#home">홈</a></li>
+          <li><a href="#skills">기술</a></li>
+          <li><a href="#portfolio">포트폴리오</a></li>
+          <li><a href="#contact">연락처</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="portfolio" class="section">
+        <div class="max-container">
+          <h2 class="title">포트폴리오</h2>
+          <p class="description">Projects</p>
+          <ul class="categories">
+            <li>
+              <button class="category category--selected" data-category="all">
+                ALL <span class="category__count">8</span>
+              </button>
+            </li>
+            <li>
+              <button class="category" data-category="front-end">
+                Front-end <span class="category__count">3</span>
+              </button>
+            </li>
+            <li>
+              <button class="category" data-category="mobile">
+                Mobile <span class="category__count">3</span>
+              </button>
+            </li>
+            <li>
+              <button class="category" data-category="ai">
+                AI <span class="category__count">2</span>
+              </button>
+            </li>
+          </ul>
+
+          <ul class="projects">
+            <li class="project" data-type="front-end">
+              <a href="#" target="_blank">
+                <img
+                  src="./images/project_dog.png"
+                  alt="project 이미지"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Project #1</h3>
+                  <p>프론트엔드 작업</p>
+                </div>
+              </a>
+            </li>
+            <li class="project" data-type="front-end">
+              <a href="#" target="_blank">
+                <img
+                  src="./images/project_cat.png"
+                  alt="project 이미지"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Project #2</h3>
+                  <p>프론트엔드 작업</p>
+                </div>
+              </a>
+            </li>
+            <li class="project" data-type="front-end">
+              <a href="#" target="_blank">
+                <img
+                  src="./images/project_bird.png"
+                  alt="project 이미지"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Project #3</h3>
+                  <p>프론트엔드 작업</p>
+                </div>
+              </a>
+            </li>
+            <li class="project" data-type="mobile">
+              <a href="#" target="_blank">
+                <img
+                  src="./images/project_deer.png"
+                  alt="project 이미지"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Project #4</h3>
+                  <p>모바일 작업</p>
+                </div>
+              </a>
+            </li>
+            <li class="project" data-type="mobile">
+              <a href="#" target="_blank">
+                <img
+                  src="./images/project_fox.png"
+                  alt="project 이미지"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Project #5</h3>
+                  <p>모바일 작업</p>
+                </div>
+              </a>
+            </li>
+            <li class="project" data-type="mobile">
+              <a href="#" target="_blank">
+                <img
+                  src="./images/project_hedgehog.png"
+                  alt="project 이미지"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Project #6</h3>
+                  <p>모바일 작업</p>
+                </div>
+              </a>
+            </li>
+            <li class="project" data-type="ai">
+              <a href="#" target="_blank">
+                <img
+                  src="./images/project_rabbit.png"
+                  alt="project 이미지"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Project #7</h3>
+                  <p>AI 작업</p>
+                </div>
+              </a>
+            </li>
+            <li class="project" data-type="ai">
+              <a href="#" target="_blank">
+                <img
+                  src="./images/project_star.png"
+                  alt="project 이미지"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Project #8</h3>
+                  <p>AI 작업</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <aside id="skills">
+      <h2 class="tool_title">기술</h2>
+      <section class="tool_coding">
+        <h3 class="lang_tool">언어</h3>
+        <ul>
+          <li>
+            <div class="bar_metadata"><span>HTML</span><span>80%</span></div>
+            <div class="bar_bg">
+              <div class="bar_value" style="width: 80%"></div>
+            </div>
+          </li>
+          <li>
+            <div class="bar_metadata"><span>CSS</span><span>60%</span></div>
+            <div class="bar_bg">
+              <div class="bar_value" style="width: 60%"></div>
+            </div>
+          </li>
+          <li>
+            <div class="bar_metadata">
+              <span>JavaScript</span><span>60%</span>
+            </div>
+            <div class="bar_bg">
+              <div class="bar_value" style="width: 60%"></div>
+            </div>
+          </li>
+          <li>
+            <div class="bar_metadata"><span>Java</span><span>70%</span></div>
+            <div class="bar_bg">
+              <div class="bar_value" style="width: 70%"></div>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <div class="tool_flexbox">
+        <section class="tool_box">
+          <h3>도구</h3>
+          <ul>
+            <li>VS Code</li>
+            <li>Jupyter</li>
+            <li>Colab</li>
+            <li>IntelliJ</li>
+          </ul>
+        </section>
+        <section class="tool_box">
+          <h3>기타</h3>
+          <ul>
+            <li>Git</li>
+            <li>Slack</li>
+          </ul>
+        </section>
+      </div>
+
+      <section id="license" class="section max-container">
+        <h3 class="title">자격증</h3>
+        <ul class="licenses">
+          <li class="license">
+            <img
+              class="license__img"
+              src="./images/cert.png"
+              alt="정보처리기사"
+            />
+            <div class="license__bubble">
+              <p class="description">정보처리기사</p>
+              <p class="description">
+                소프트웨어 개발 및 데이터 처리에 대한 국가공인 자격
+              </p>
+            </div>
+          </li>
+          <li class="license">
+            <img class="license__img" src="./images/cert2.png" alt="SQLD" />
+            <div class="license__bubble">
+              <p class="description">SQLD</p>
+              <p class="description">데이터베이스 설계와 SQL 활용 능력 인증</p>
+            </div>
+          </li>
+          <li class="license">
+            <img class="license__img" src="./images/cert3.png" alt="컴활 1급" />
+            <div class="license__bubble">
+              <p class="description">컴퓨터활용능력 1급</p>
+              <p class="description">
+                엑셀, 데이터 분석 등 사무자동화 실무 능력 평가
+              </p>
+            </div>
+          </li>
+          <li class="license">
+            <img
+              class="license__img"
+              src="./images/network.png"
+              alt="네트워크 관리사"
+            />
+            <div class="license__bubble">
+              <p class="description">네트워크 관리사</p>
+              <p class="description">
+                네트워크 설계 및 관리 능력을 평가하는 자격
+              </p>
+            </div>
+          </li>
+          <li class="license">
+            <img
+              class="license__img"
+              src="./images/linux.png"
+              alt="리눅스 마스터"
+            />
+            <div class="license__bubble">
+              <p class="description">리눅스 마스터</p>
+              <p class="description">리눅스 시스템 활용 및 관리 능력을 인증</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <aside>
+        <a href="#home" class="arrow-up" title="위로">
+          <i class="fa-solid fa-arrow-up"></i>
+        </a>
+      </aside>
+    </aside>
+
+    <footer id="contact" class="section">
+      <div class="max-container">
+        <h2 class="title">연락주세요!</h2>
+        <p class="description">gimdongwon14@gmail.com</p>
+        <ul class="contact__links">
+          <li>
+            <a
+              class="contact__link"
+              href="https://ehddnjsKim.github.io/"
+              target="_blank"
+              title="깃허브"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </li>
+        </ul>
+        <p>&copy; Dw - My Website</p>
+      </div>
+    </footer>
+  </body>
+</html>
